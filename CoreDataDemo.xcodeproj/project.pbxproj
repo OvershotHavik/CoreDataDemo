@@ -42,6 +42,7 @@
 		B3627BED275E971E004A6519 /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
 		B3627BEF275E9785004A6519 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		B3627BF1275E97EA004A6519 /* PersistenceControllerToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceControllerToDo.swift; sourceTree = "<group>"; };
+		B3627BF5275EB53C004A6519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B3D16A8F275E77E100EB8D02 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D16A92275E77E100EB8D02 /* CoreDataDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoApp.swift; sourceTree = "<group>"; };
 		B3D16A94275E77E100EB8D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		B3D16A91275E77E100EB8D02 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B3627BF5275EB53C004A6519 /* Info.plist */,
 				B3627BF4275E9855004A6519 /* Stash Example */,
 				B3627BF3275E983C004A6519 /* ToDo Example */,
 				B3D16A92275E77E100EB8D02 /* CoreDataDemoApp.swift */,
@@ -458,6 +460,7 @@
 				DEVELOPMENT_TEAM = 334VYUXU36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -487,6 +490,7 @@
 				DEVELOPMENT_TEAM = 334VYUXU36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
